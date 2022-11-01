@@ -11,9 +11,16 @@ function setup(){
 function draw(){
   background(160, 192, 255);
   count = (count + 1) % cycle;
-  console.log(count);
+  console.log (count);
     // BLANK[1]
   let size = count;  
   ellipse(width / 2, height / 2, size);
+}
+
+function keypressed(){
+  if (key== " "){ 
+ count = 0
+ cycle = 0 
+  }
 }
 
