@@ -2,6 +2,8 @@
 let count;
 let cycle;
 
+
+
 function setup(){
   createCanvas(200, 200);
   count = 0;
@@ -13,8 +15,9 @@ function draw(){
   count = (count + 1) % cycle;
   console.log (count);
     // BLANK[1]
-  let size = count;  
-  ellipse(width / 2, height / 2, size);
+  let size = count;
+    ellipse(width / 2, height / 2, size);
+  
 }
 
 function keypressed(){
