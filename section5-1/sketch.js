@@ -17,7 +17,7 @@ function star(cx, cy, r){
     let x = cx + cos(theta) * r;
     let y = cy + sin(theta) * r;
     vertex(x,y);
-    fill (255, 255, 0); 
+    fill (255, 255, 1) ; 
   }
   endShape(CLOSE);
 }
