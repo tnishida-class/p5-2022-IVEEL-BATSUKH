@@ -13,7 +13,7 @@ function setup(){
 
 
 function draw(){
-  background(160, 192, 255);
+  background(250, 250, 0);
   ellipse(x, y, 30);
   if(!grabbed){ // つかんでいないときだけアニメーションさせる
     x += vx;
