@@ -110,7 +110,7 @@ function Snake() {
     for (let i = 0; i < this.tail.length; i++) {
       rect(this.tail[i].x, this.tail[i].y, ive, ive );
     }
-    rect(this.x, this.y, , ive);
+    rect(this.x, this.y, ive , ive);
 
   }
 }
